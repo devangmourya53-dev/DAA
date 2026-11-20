@@ -1,0 +1,48 @@
+
+===== NORMAL / SMALL =====
+
+Locations=6 Orders=6 Capacity=12
+Strategy          Time(s)       Extra memory estimate(bytes)    Quality
+Dijkstra          0.00000200    48                              exact
+Bellman-Ford      0.00000100    24                              exact
+Merge Sort        0.00000200    120                             exact
+Quick Sort        0.00000100    O(log n) typical stack          exact
+Greedy Selection  0.00000100    24                              100.00% (630)
+0/1 Knapsack      0.00000400    52                              100.00% (630)
+Common graph storage: 144 bytes; comparisons consistent: YES
+
+===== CAPACITY SHOCK / SMALL =====
+
+Locations=6 Orders=6 Capacity=5
+Strategy          Time(s)       Extra memory estimate(bytes)    Quality
+Dijkstra          0.00000100    48                              exact
+Bellman-Ford      0.00000100    24                              exact
+Merge Sort        0.00000100    120                             exact
+Quick Sort        0.00000000    O(log n) typical stack          exact
+Greedy Selection  0.00000100    24                              100.00% (300)
+0/1 Knapsack      0.00000100    24                              100.00% (300)
+Common graph storage: 144 bytes; comparisons consistent: YES
+
+===== LARGE STRESS =====
+
+Locations=120 Orders=700 Capacity=500
+Strategy          Time(s)       Extra memory estimate(bytes)    Quality
+Dijkstra          0.00002700    960                             exact
+Bellman-Ford      0.00002700    480                             exact
+Merge Sort        0.00002900    14000                           exact
+Quick Sort        0.00004800    O(log n) typical stack          exact
+Greedy Selection  0.00025700    2800                            99.99% (74762)
+0/1 Knapsack      0.00023300    2004                            100.00% (74766)
+Common graph storage: 57600 bytes; comparisons consistent: YES
+
+===== ADVERSARIAL / MEDIUM =====
+
+Locations=20 Orders=80 Capacity=40
+Strategy          Time(s)       Extra memory estimate(bytes)    Quality
+Dijkstra          0.00000200    160                             exact
+Bellman-Ford      0.00000200    80                              exact
+Merge Sort        0.00000300    1600                            exact
+Quick Sort        0.00000200    O(log n) typical stack          exact
+Greedy Selection  0.00000500    320                             100.00% (6106)
+0/1 Knapsack      0.00000500    164                             100.00% (6106)
+Common graph storage: 1600 bytes; comparisons consistent: YES
