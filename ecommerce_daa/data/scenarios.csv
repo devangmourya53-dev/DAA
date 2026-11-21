@@ -1,5 +1,0 @@
-scenario,locations,orders,capacity,description
-normal,6,6,12,Normal fulfilment
-capacity_shock,6,6,5,Vehicle capacity reduction
-large_stress,120,700,500,Large synthetic workload
-adversarial,20,80,40,Equal priorities and repeated weight patterns

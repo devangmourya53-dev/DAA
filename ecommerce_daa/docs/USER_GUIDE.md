@@ -1,2 +1,0 @@
-# User guide
-Build using `make`. Launch `./ecommerce` (or `ecommerce.exe` on Windows). Menu options allow adding/displaying orders, adding roads, changing capacity, reporting algorithm comparisons, and running preset scenarios. Depot is vertex 0; locations are zero-indexed. Order weight and value are positive/nonnegative integers. Road weights must be nonnegative. Run `make test` and `make benchmark` before demonstration. The benchmark uses `clock()` CPU time and outputs estimated auxiliary memory. Very short operations may show 0.00000000 seconds due to clock resolution.
